@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vossoughi.us_statesgame.SplashActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_title"
+        android:textSize="20pt"
+        android:gravity="center"
+        android:layout_weight="0.12"/>
+
+    <ImageView
+        android:src="@drawable/usageo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="@dimen/top_margin_small"
+        android:id="@+id/imageView"
+        android:layout_weight="0.16"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin_medium"
+        android:layout_marginLeft="@dimen/side_margin_large"
+        android:layout_marginRight="@dimen/side_margin_large"
+        android:inputType="textPersonName"
+        android:hint="@string/hint"
+        android:textAlignment="center"
+        android:ems="10"
+        android:id="@+id/editText"/>
+
+    <Button
+        android:text="@string/game_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/side_margin_medium"
+        android:layout_marginRight="@dimen/side_margin_medium"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:onClick="buttonListener"
+        android:id="@+id/button"/>
+
+    <Button
+        android:text="@string/score_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/side_margin_large"
+        android:layout_marginRight="@dimen/side_margin_large"
+        android:layout_marginTop="@dimen/top_margin_medium"
+        android:onClick="buttonListener"
+        android:id="@+id/button2"/>
+</LinearLayout>

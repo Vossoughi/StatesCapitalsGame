@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">US_StatesGame</string>
+    <string name="splash_title">US States</string>
+    <string name="game_btn">Play Game</string>
+    <string name="score_btn">See Scores</string>
+    <string name="game_title">Capital or State?</string>
+    <string name="game_footer">Total Score</string>
+    <string name="hint">Enter here</string>
+    <string name="game_button_1">State</string>
+    <string name="game_button_2">Capital</string>
+    <string name="game_button_3">Submit</string>
+    <string name="game_button_4">Next</string>
+</resources>
